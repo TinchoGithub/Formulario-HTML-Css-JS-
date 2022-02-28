@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tp1 Optativo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h1>Formulario</h1>
+	<h2>Complete el formulario</h2>
+	<form class="form">
+		<div>
+			<label><b>Nombre</b></label>
+			<input type="text" name="Nombre" placeholder="Ingrese su nombre">
+		</div>
+		<div>
+			<label><b>Apellido</b></label>
+			<input class="form__input" type="text" name="Apellido" placeholder="Ingrese su apellido">
+		</div>
+		<div>
+			<label><b>DNI</b></label>
+			<input class="form__input" type="text" name="DNI" placeholder="Ingrese su DNI">
+		</div>
+		<div>
+			<label><b>Email</b></label>
+			<input class="form__input" type="Email" name="Email" placeholder="Ingrese su correo">
+		</div>
+		<div>
+			<label><b>Teléfono</b></label>
+			<input class="form__input" type="tel" name="Telefono" placeholder="Ingrese su telefono">
+		</div>
+		<div>
+			<label><b>Tipo de seguro</b></label>
+			<select class="form__select" id="tipoSeguro" onchange="seleccionarSeguro();">
+				<option class="form__select-option" value="Basico: $500">Basico</option>
+				<option class="form__select-option" value="Intermedio: $1000">Intermedio</option>
+				<option class="form__select-option" value="Premium: $1500">Premium</option>
+			</select>
+			<span id="seguroSeleccionado"></span>
+		</div>
+	</form>
+
+
+</body>
+	<script src="codigo.js"></script>
+</html>

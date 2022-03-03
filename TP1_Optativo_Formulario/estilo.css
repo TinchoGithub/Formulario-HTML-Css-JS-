@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(rgb(34.687, 88.236, 240.31), rgb(7.9688, 247.03, 245.04));
+	min-height: 100vh;
+
+}
+ .form {
+	 width: 400px;
+	 background: #24303c;
+	 padding: 20px;
+	 margin: auto;
+	 margin-top: 20px;
+	 border-radius: 6px;
+	 font-family: 'calibri';
+	 color: white;
+	 box-shadow: 7px 13px 37px #000;
+ }
+.form h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: yellowgreen;
+	
+}
+
+.form h3 {
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: grey;
+
+}
+
+.titulo {
+	color: white;
+	font-family: 'calibri';
+	font-size: 20px;
+	background-color: #24303c;
+	border: 3px solid yellowgreen;
+	border-radius: 6px;
+	
+}
+
+.form__input {
+	background-color: #24303c;
+	width: 100%;
+	padding: 5px;
+	border-radius: 6px;
+	margin-bottom: 5px;
+	border: 1px solid rgb(7.9688, 247.03, 245.04);
+	font-family: 'calibri';
+	font-size: 15px;
+	color: rgb(7.9688, 247.03, 245.04);
+
+}
+
+label {
+	display: inline-block;
+	width: 60px;
+	color: white;
+	font-size: 18px;
+}
+
+select {
+	background-color: #24303c;
+	border: 1px solid rgb(7.9688, 247.03, 245.04);
+	width: 150px;
+	margin: 5px;
+	font-family: 'calibri';
+
+}
+
+.boton {
+	width: 100%;
+	background: rgb(7.9688, 247.03, 245.04);
+	border: none;
+	padding: 12px;
+	color: #24303c;
+	font-size: 22px;
+	border-radius: 4px;
+	
+}
+
+.boton:hover{
+	background-color: yellowgreen;
+}

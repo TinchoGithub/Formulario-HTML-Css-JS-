@@ -1,0 +1,87 @@
+
+.contenedor {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 165, 0);
+    border-radius: 10px;
+    height: 500px;
+    border: 2px solid rgb(95, 158, 160);
+}
+
+h1{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: rgb(127, 255, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.input{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(95, 158, 160);
+}
+
+.input__numero{
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid rgb(95, 158, 160);
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.operacion{
+    display:flexbox;
+    position:relative;
+    width: 200px;
+    margin: 0 auto;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgb(95, 158, 160);
+}
+
+button:hover{
+    background-color: rgb(127, 255, 0);
+}
+
+.resultado{
+    display: block;
+    height: 49px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgb(95, 158, 160);
+}
+
+span{
+    font-size: 50px;
+    color: chartreuse;
+}
+
+footer{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-top: 15px;
+    color: rgb(240, 120, 22);
+}

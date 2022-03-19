@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Calculadora</h1>
+        <div class="input">
+            <input id="n1" type="number" class="input__numero" placeholder="ingrese num 1">
+            <input id="n2" type="number" class="input__numero" placeholder="ingrese num 2">
+        </div>
+        <div class="operacion">
+            <button onclick="suma()" class="operacion__suma">+</button>
+            <button onclick="resta()" class="operacion__resta">-</button>
+            <button onclick="multiplicacion()" class="operacion__multiplicar">*</button>
+            <button onclick="division()" class="operacion__dividir">/</button>
+        </div>
+        <div class="resultado">
+            <span id="resultado"></span>
+        </div>
+    </div>
+    <footer>
+        <p><b>- Hecho por Martín Perez -</b></p>
+    </footer>
+</body>
+<script src="codigo.js"></script>
+</html>
